@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/Les-Petits-Plats/assets/Icone/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2e50b998d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Les-Petits-Plats/css/style.css">
+    <title>Les Petits Plats</title>
+</head>
+
+<body>
+    <header>
+        <img src="/Les-Petits-Plats/assets/Vector.jpg" alt="Logo Les Petits Plats">
+        <h1>Les petits plats</h1>
+    </header>
+
+    <nav>
+        <section class="search-container" role="region" aria-label="Section de recherche de recette">
+            <form action="#" class="search-form">
+                <input type="text" class="search-input" id="search" placeholder="Rechercher une recette" autocomplete="off">
+                <label for="search" class="search-label">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </label>
+            </form>
+        </section>
+
+        <section class="tags-container">
+            <div class="ingredients-tags-container"></div>
+            <div class="appliances-tags-container"></div>
+            <div class="ustensils-tags-container"></div>
+        </section>
+
+        <section class="dropdown-container">
+            <div class="dropdown-menu dropdown-menu-ingredients">
+                <input type="text" class="dropdown-menu-button ingredient-search" placeholder="Rechercher un ingrédient" value="Ingrédients" name="Ingrédients" id="sort-by-ingredients">
+                <label for="sort-by-ingredients" class="dropdown-menu-label">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul class="dropdown-menu-options ingredients-options"></ul>
+            </div>
+            <div class="dropdown-menu dropdown-menu-appareils">
+                <input type="text" class="dropdown-menu-button appliance-search" placeholder="Rechercher un appareil" value="Appareils" name="Appareils" id="sort-by-appliances">
+                <label for="sort-by-devices" class="dropdown-menu-label">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul class="dropdown-menu-options appliances-options"></ul>
+            </div>
+            <div class="dropdown-menu dropdown-menu-ustensiles">
+                <input type="text" class="dropdown-menu-button ustensil-search" placeholder="Rechercher un ustensile" value="Ustensiles" name="Ustensiles" id="sort-by-ustensils">
+                <label for="sort-by-utensils" class="dropdown-menu-label">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul class="dropdown-menu-options ustensils-options"></ul>
+            </div>
+        </section>
+    </nav>
+
+<main>
+    <section class="cards-container">
+    </section>
+</main>
+</body>
+<script type= "module" src="./scripts/data/recipes.js"></script>
+<script type= "module" src="./scripts/data/global.js"></script>
+<script type= "module" src="./scripts/index.js"></script>
+<script type= "module" src="./scripts/components/tags.js"></script>
+<script type= "module" src="./scripts/components/dropdowns.js"></script>
+<script type= "module" src="./scripts/components/search1.js"></script>
+<script type= "module" src="./scripts/utils/utils.js"></script>
+</html>
