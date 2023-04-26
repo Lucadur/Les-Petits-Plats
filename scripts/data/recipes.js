@@ -1370,8 +1370,7 @@ export const recipes = [
       },
     ],
     time: 20,
-    description:
-      "Fouettez les oeufs, le sucre et le lait. tremper les tranches de pain. Le cuire au four pendant environ 10 minutes à 180°. Servir",
+    description: "Fouettez les oeufs, le sucre et le lait. tremper les tranches de pain. Le cuire au four pendant environ 10 minutes à 180°. Servir",
     appliance: "Four",
     ustensils: ["Fouet", "Bol", "Cuillère à Soupe"],
   },
@@ -1733,8 +1732,7 @@ export const recipes = [
       },
     ],
     time: 0,
-    description:
-      "Découper les fruits. Le passer au blender jusqu'à obtenir une texture liquide. Mettre au frais. Servir",
+    description: "Découper les fruits. Le passer au blender jusqu'à obtenir une texture liquide. Mettre au frais. Servir",
     appliance: "Blender",
     ustensils: ["Couteau", "Verres"],
   },

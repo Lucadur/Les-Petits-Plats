@@ -1,4 +1,4 @@
-import { recipes } from "./recipes.js";
+import { recipes } from "../data/recipes.js";
 
 export let selectedIngredients = [];
 export let selectedAppliances = [];
